@@ -35,6 +35,11 @@ sqlparse = "0.4.3"
 ultralytics = "8.0.187"
 uvicorn = { version = "0.23.2", extras = ["standard"] }
 
+[tool.poetry.group.cli]
+optional = true
+[tool.poetry.group.cli.dependencies]
+click = "8.1.7"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
