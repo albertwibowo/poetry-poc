@@ -3,6 +3,7 @@ name = "random-dependencies"
 version = "1.0.0"
 description = "A bunch of random dependencies"
 authors = ["Albert Wibowo <albert14wibowo@duck.com>"]
+packages = [{include = "src"}]
 repository = "https://github.com/albertwibowo/poetry-poc"
 
 [tool.poetry.dependencies]
